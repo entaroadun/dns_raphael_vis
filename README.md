@@ -1,3 +1,7 @@
+I was wandering what SOPA really did to GoDaddy and all that bad press.
 
-I was wandering what SOPA really did to GoDaddy ...
+The result was surpring: 
 
+http://entaroadun.github.com/dns_raphael_vis/
+
+... nothing.
