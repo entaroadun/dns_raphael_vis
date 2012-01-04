@@ -1,4 +1,4 @@
-I was wandering what SOPA really did to GoDaddy. It got a lot of bad press:
+GoDaddy got a lot of bad press:
 
 * http://news.ycombinator.com/item?id=3381822 (GoDaddy supports SOPA, redditor proposes "Move your Domain Day")
 * http://news.ycombinator.com/item?id=3383097 (A Step By Step Guide to Transfer Domains Out Of GoDaddy)
@@ -12,6 +12,7 @@ I was wandering what SOPA really did to GoDaddy. It got a lot of bad press:
 
 ... and on and on ...
 
+I was wandering what SOPA really did to GoDaddy in terms od domain transfers. 
 The results were rather surprising: 
 
 http://entaroadun.github.com/dns_raphael_vis/
