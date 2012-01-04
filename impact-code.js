@@ -51,6 +51,7 @@ var process = function (json) {
         var min_val = 9999999;
 	var max_val = 0;
         for (var j = 0, jj = json.buckets.length; j < jj; j++) {
+            var users = json.buckets[j].i;
             for (var i = 0, ii = users.length; i < ii; i++) {
 	      if ( users[i][1] > max_val ) {
 		max_val = users[i][1];
