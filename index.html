@@ -1,85 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
 <head>
-  <meta charset='utf-8'>
-
-  <title>entaroadun/dns_raphael_vis @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #c18b14;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #3e74eb; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #3e74eb; }
-    h3 { text-align: center; color: #3e74eb; }
-    a { color: #3e74eb; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
-
-<body>
-  <a href="https://github.com/entaroadun/dns_raphael_vis"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="https://github.com/entaroadun/dns_raphael_vis/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/entaroadun/dns_raphael_vis/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
-    </div>
-
-    <h1><a href="https://github.com/entaroadun/dns_raphael_vis">dns_raphael_vis</a>
-      <span class="small">by <a href="https://github.com/entaroadun">entaroadun</a></span></h1>
-
-    <div class="description">
-      DNS changes visualization
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-      <h2>Contact</h2>
-      <p>Zeratul (zeratul@nerazim.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/entaroadun/dns_raphael_vis/zipball/master">zip</a> or
-      <a href="https://github.com/entaroadun/dns_raphael_vis/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/entaroadun/dns_raphael_vis</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/entaroadun/dns_raphael_vis">entaroadun/dns_raphael_vis</a>
-    </div>
-
-  </div>
-
-</body>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Impact Chart</title>
+        <script src="./raphael.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./impact.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./impact-code.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="./demo.css" type="text/css">
+	</head>
+	<body>
+	<div id="name2" class="hidden">
+		<div id="legend2">&nbsp;</div>
+		<div id="username2">legend</div>
+	</div>
+	<div id="placeholder">mouse over the graph for more details</div>
+	<div id="chart"></div>
+	<p id="copy">Domaincontrol.com (GoDaddy) daily changes (deleted, new, transfered in, transfered out), courtesy of <a href='http://www.domaintools.com'>Domaintools.com</a> and <a href="http://raphaeljs.com">Raphaël JavaScript Vector Library</a>.</p>
+	</body>
 </html>

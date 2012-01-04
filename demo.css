@@ -1,0 +1,70 @@
+body {
+    background: #333;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+#holder {
+    height: 480px;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    position: absolute;
+    top: 50%;
+    width: 640px;
+}
+#copy {
+    top: 240px;
+    font: 300 .8em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: fixed;
+}
+#copy a {
+    color: #fff;
+}
+#chart {
+    margin-top: 6px;
+    clear: left;
+}
+.invisible {
+    visibility: hidden;
+}
+.hidden {
+    display: none;
+}
+#legend,
+#legend2 {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    width: 1em;
+    height: 1em;
+    border: solid 1px #000;
+    margin-right: .3em;
+    line-height: 1;
+}
+#name, 
+#name2 {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    clear: left;
+    float: left;
+}
+#name div,
+#name2 div {
+    float: left;
+}
+#placeholder {
+    clear: left;
+    color: #999;
+}
+em {
+    color: #666;
+    font-style: normal;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
