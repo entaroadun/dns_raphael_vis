@@ -1,0 +1,3 @@
+
+I was wandering what SOPA really did to GoDaddy ...
+
