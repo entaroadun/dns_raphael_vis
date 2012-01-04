@@ -10,7 +10,7 @@ GoDaddy got a lot of bad press:
 * http://news.ycombinator.com/item?id=3393330 (Update on GoDaddy Transfer Issues)
 * http://news.ycombinator.com/item?id=3388406 (Wikipedia will be leaving GoDaddy)
 
-... and on and on ...
+..., and on, and on ...
 
 I was wandering what SOPA really did to GoDaddy in terms od domain transfers. 
 The results were rather surprising: 
