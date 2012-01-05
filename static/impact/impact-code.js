@@ -48,11 +48,10 @@ var process = function (json) {
     function block() {
         var p, h;
         finishes();
+        var min_val = 9999999;
+	var max_val = 0;
         for (var j = 0, jj = json.buckets.length; j < jj; j++) {
             var users = json.buckets[j].i;
-            h = 0;
-	    var min_val = 9999999;
-	    var max_val = 0;
             for (var i = 0, ii = users.length; i < ii; i++) {
 	      if ( users[i][1] > max_val ) {
 		max_val = users[i][1];
@@ -60,7 +59,12 @@ var process = function (json) {
 	      if ( users[i][1] < min_val ) {
 		min_val = users[i][1];
 	      }
-	    }
+	    } 
+        }
+        for (var j = 0, jj = json.buckets.length; j < jj; j++) {
+            var users = json.buckets[j].i;
+            h = 0;
+	    
             for (var i = 0, ii = users.length; i < ii; i++) {
                 p = pathes[users[i][0]];
                 if (!p) {
